@@ -20,12 +20,12 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(name: "mob_sec_test_oc_fly",
                       path: "Frameworks/FlyVerifyCSDK.xcframework"),
-//        .binaryTarget(name: "mob_sec_test_oc_mob",
-//                      path: "Frameworks/MOBFoundation.xcframework"),
+        .binaryTarget(name: "mob_sec_test_oc_mob",
+                      path: "Frameworks/MOBFoundation.xcframework"),
         .target(
             name: "mob_sec_test",
-//            dependencies: ["mob_sec_test_oc_fly","mob_sec_test_oc_mob"],
-            dependencies: ["mob_sec_test_oc_fly"],
+            dependencies: ["mob_sec_test_oc_fly","mob_sec_test_oc_mob"],
+//            dependencies: ["mob_sec_test_oc_fly"],
             linkerSettings: [
                 .linkedLibrary("z"),
                 .linkedLibrary("c++"),
