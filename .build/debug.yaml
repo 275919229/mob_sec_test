@@ -12,6 +12,9 @@ targets:
   "test": ["<mob_sec_test-arm64-apple-macosx15.0-debug.module>","<mob_sec_testPackageTests-arm64-apple-macosx15.0-debug.test>","<mob_sec_testTests-arm64-apple-macosx15.0-debug.module>"]
 default: "main"
 nodes:
+  "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/FlyVerifyCSDK.xcframework/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
   "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/":
     is-directory-structure: true
     content-exclusion-patterns: [".git",".build"]
@@ -105,7 +108,7 @@ commands:
 
   "PackageStructure":
     tool: package-structure-tool
-    inputs: ["/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Tests/mob_sec_testTests/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Package.swift","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Package.resolved"]
+    inputs: ["/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/FlyVerifyCSDK.xcframework/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Tests/mob_sec_testTests/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Package.swift","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Package.resolved"]
     outputs: ["<PackageStructure>"]
     description: "Planning build"
     allow-missing-inputs: true

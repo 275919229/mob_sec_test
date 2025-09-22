@@ -18,13 +18,14 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-//        .binaryTarget(name: "mob_sec_test_oc_fly",
-//                      path: "Frameworks/FlyVerifyCSDK.xcframework"),
+        .binaryTarget(name: "mob_sec_test_oc_fly",
+                      path: "Frameworks/FlyVerifyCSDK.xcframework"),
 //        .binaryTarget(name: "mob_sec_test_oc_mob",
 //                      path: "Frameworks/MOBFoundation.xcframework"),
         .target(
             name: "mob_sec_test",
 //            dependencies: ["mob_sec_test_oc_fly","mob_sec_test_oc_mob"],
+            dependencies: ["mob_sec_test_oc_fly"],
             linkerSettings: [
                 .linkedLibrary("z"),
                 .linkedLibrary("c++"),
