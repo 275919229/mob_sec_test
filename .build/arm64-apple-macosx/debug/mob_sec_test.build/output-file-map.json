@@ -1,11 +1,11 @@
 {
   "": {
-    "swift-dependencies": "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/master.swiftdeps"
+    "swift-dependencies": "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/master.swiftdeps"
   },
-  "/Users/mob_m4/Desktop/mob_sec_test/Sources/mob_sec_test/mob_sec_test.swift": {
-    "dependencies": "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.d",
-    "object": "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o",
-    "swiftmodule": "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test~partial.swiftmodule",
-    "swift-dependencies": "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swiftdeps"
+  "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/mob_sec_test.swift": {
+    "dependencies": "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.d",
+    "object": "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o",
+    "swiftmodule": "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test~partial.swiftmodule",
+    "swift-dependencies": "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swiftdeps"
   }
 }

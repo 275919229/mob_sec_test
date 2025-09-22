@@ -4,7 +4,7 @@ import Foundation
 // 如果依赖了Alamofire，记得import
 // import Alamofire
 
-public struct NetworkingManager {
+public class NetworkingManager {
     public static func doSomethingAwesome() {
         print("Something awesome is happening!")
     }
