@@ -459,14 +459,19 @@
   },
   "targetDependencyMap" : {
     "mob_sec_test" : [
-
+      "mob_sec_test_oc_mob",
+      "mob_sec_test_oc_fly"
     ],
     "mob_sec_testPackageTests" : [
       "mob_sec_testTests",
-      "mob_sec_test"
+      "mob_sec_test",
+      "mob_sec_test_oc_mob",
+      "mob_sec_test_oc_fly"
     ],
     "mob_sec_testTests" : [
-      "mob_sec_test"
+      "mob_sec_test",
+      "mob_sec_test_oc_mob",
+      "mob_sec_test_oc_fly"
     ]
   },
   "testDiscoveryCommands" : {

@@ -12,6 +12,12 @@ targets:
   "test": ["<mob_sec_test-arm64-apple-macosx15.0-debug.module>","<mob_sec_testPackageTests-arm64-apple-macosx15.0-debug.test>","<mob_sec_testTests-arm64-apple-macosx15.0-debug.module>"]
 default: "main"
 nodes:
+  "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/FlyVerifyCSDK.xcframework/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/MOBFoundation.xcframework/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
   "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/":
     is-directory-structure: true
     content-exclusion-patterns: [".git",".build"]
@@ -94,7 +100,7 @@ commands:
     inputs: ["/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/runner.swift.o","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/mob_sec_testTests.swift.o","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.product/Objects.LinkFileList"]
     outputs: ["/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.xctest/Contents/MacOS/mob_sec_testPackageTests"]
     description: "Linking ./.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.xctest/Contents/MacOS/mob_sec_testPackageTests"
-    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug","-o","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.xctest/Contents/MacOS/mob_sec_testPackageTests","-module-name","mob_sec_testPackageTests","-Xlinker","-no_warn_duplicate_libraries","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules/mob_sec_test.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules/mob_sec_testPackageTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules/mob_sec_testTests.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug","-o","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.xctest/Contents/MacOS/mob_sec_testPackageTests","-module-name","mob_sec_testPackageTests","-Xlinker","-no_warn_duplicate_libraries","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-lz","-lc++","-framework","Security","-framework","SystemConfiguration","-framework","Foundation","-framework","UIKit","-ObjC","-Xlinker","-add_ast_path","-Xlinker","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules/mob_sec_test.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules/mob_sec_testPackageTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules/mob_sec_testTests.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
 
   "C.mob_sec_testTests-arm64-apple-macosx15.0-debug.module":
     tool: shell
@@ -105,7 +111,7 @@ commands:
 
   "PackageStructure":
     tool: package-structure-tool
-    inputs: ["/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Tests/mob_sec_testTests/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Package.swift","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Package.resolved"]
+    inputs: ["/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/FlyVerifyCSDK.xcframework/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/MOBFoundation.xcframework/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Tests/mob_sec_testTests/","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Package.swift","/Users/mob_m4/Documents/gitlab_source/spm_test_1/Package.resolved"]
     outputs: ["<PackageStructure>"]
     description: "Planning build"
     allow-missing-inputs: true
