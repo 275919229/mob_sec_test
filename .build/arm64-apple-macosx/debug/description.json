@@ -1,0 +1,568 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.xctest/Contents/MacOS/mob_sec_testPackageTests",
+      "packagePath" : "/Users/mob_m4/Desktop/mob_sec_test",
+      "productName" : "mob_sec_testPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.mob_sec_test-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/sources",
+      "importPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/Sources/mob_sec_test/mob_sec_test.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "mob_sec_test",
+      "moduleOutputPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules/mob_sec_test.swiftmodule",
+      "objects" : [
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mob_sec_test"
+      ],
+      "outputFileMapPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules/mob_sec_test.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mob_m4/Desktop/mob_sec_test/Sources/mob_sec_test/mob_sec_test.swift"
+      ],
+      "tempsPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.mob_sec_testPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/sources",
+      "importPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules/mob_sec_testTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "mob_sec_testPackageTests",
+      "moduleOutputPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules/mob_sec_testPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/mob_sec_testPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mob_sec_test"
+      ],
+      "outputFileMapPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules/mob_sec_testPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.mob_sec_testTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/sources",
+      "importPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/Tests/mob_sec_testTests/mob_sec_testTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules/mob_sec_test.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "mob_sec_testTests",
+      "moduleOutputPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules/mob_sec_testTests.swiftmodule",
+      "objects" : [
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/mob_sec_testTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "mob_sec_test"
+      ],
+      "outputFileMapPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/mob_sec_testTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules/mob_sec_testTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mob_m4/Desktop/mob_sec_test/Tests/mob_sec_testTests/mob_sec_testTests.swift"
+      ],
+      "tempsPath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "mob_sec_test" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "mob_sec_test",
+      "-package-name",
+      "mob_sec_test",
+      "-incremental",
+      "-c",
+      "/Users/mob_m4/Desktop/mob_sec_test/Sources/mob_sec_test/mob_sec_test.swift",
+      "-I",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mob_sec_test",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "mob_sec_testPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "mob_sec_testPackageTests",
+      "-package-name",
+      "mob_sec_test",
+      "-incremental",
+      "-c",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/mob_sec_testPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mob_sec_test",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "mob_sec_testTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "mob_sec_testTests",
+      "-package-name",
+      "mob_sec_test",
+      "-incremental",
+      "-c",
+      "/Users/mob_m4/Desktop/mob_sec_test/Tests/mob_sec_testTests/mob_sec_testTests.swift",
+      "-I",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "mob_sec_test",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "mob_sec_test" : [
+
+    ],
+    "mob_sec_testPackageTests" : [
+      "mob_sec_testTests",
+      "mob_sec_test"
+    ],
+    "mob_sec_testTests" : [
+      "mob_sec_test"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "writeCommands" : {
+    "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/Sources/mob_sec_test/mob_sec_test.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/sources"
+    },
+    "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/sources"
+    },
+    "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/mob_sec_testTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Desktop/mob_sec_test/Tests/mob_sec_testTests/mob_sec_testTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testTests.build/sources"
+    },
+    "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

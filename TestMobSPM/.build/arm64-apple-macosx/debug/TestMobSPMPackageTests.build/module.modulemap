@@ -1,4 +1,0 @@
-module TestMobSPMPackageTests {
-    header "/Users/mob_m4/Desktop/TestMobSPM/.build/arm64-apple-macosx/debug/TestMobSPMPackageTests.build/TestMobSPMPackageTests-Swift.h"
-    requires objc
-}

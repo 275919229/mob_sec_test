@@ -1,0 +1,4 @@
+module mob_sec_testPackageTests {
+    header "/Users/mob_m4/Desktop/mob_sec_test/.build/arm64-apple-macosx/debug/mob_sec_testPackageTests.build/mob_sec_testPackageTests-Swift.h"
+    requires objc
+}
