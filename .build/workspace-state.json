@@ -28,6 +28,20 @@
           "type" : "local"
         },
         "targetName" : "mob_sec_test_oc_mob"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "spm_test_1",
+          "kind" : "root",
+          "location" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1",
+          "name" : "spm_test_1"
+        },
+        "path" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/ShareSDK/ShareSDK.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "ShareSDKSPM"
       }
     ],
     "dependencies" : [

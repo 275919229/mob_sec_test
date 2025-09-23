@@ -22,10 +22,17 @@ let package = Package(
                       path: "Frameworks/FlyVerifyCSDK.xcframework"),
         .binaryTarget(name: "mob_sec_test_oc_mob",
                       path: "Frameworks/MOBFoundation.xcframework"),
+        .binaryTarget(name: "ShareSDKSPM",
+                      path: "Frameworks/ShareSDK/ShareSDK.xcframework"),
         .target(
             name: "mob_sec_test",
-            dependencies: ["mob_sec_test_oc_fly","mob_sec_test_oc_mob"],
+            dependencies: ["mob_sec_test_oc_fly","mob_sec_test_oc_mob","ShareSDKSPM"],
 //            dependencies: ["mob_sec_test_oc_fly"],
+            resources: [
+//                .copy("Frameworks/ShareSDK/Support/Optional/ShareSDKConfigFile.bundle"),
+//                .copy("Frameworks/ShareSDK/Support/Optional/ShareSDKUI.bundle"),
+                .copy("Resources")
+            ],
             linkerSettings: [
                 .linkedLibrary("z"),
                 .linkedLibrary("c++"),

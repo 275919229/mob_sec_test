@@ -7,7 +7,20 @@
     }
   ],
   "copyCommands" : {
-
+    "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test_mob_sec_test.bundle/Resources" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/Resources"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test_mob_sec_test.bundle/Resources"
+        }
+      ]
+    }
   },
   "explicitTargetDependencyImportCheckingMode" : {
     "none" : {
@@ -32,7 +45,15 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<mob_sec_test-arm64-apple-macosx15.0-debug.module-resources>"
         },
         {
           "kind" : "file",
@@ -43,7 +64,8 @@
       "moduleName" : "mob_sec_test",
       "moduleOutputPath" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules/mob_sec_test.swiftmodule",
       "objects" : [
-        "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o"
+        "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o",
+        "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/resource_bundle_accessor.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -98,12 +120,17 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules/mob_sec_test.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/mob_sec_test.swift"
+        "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/mob_sec_test.swift",
+        "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/DerivedSources/resource_bundle_accessor.swift"
       ],
       "tempsPath" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build",
       "wholeModuleOptimization" : false
@@ -299,6 +326,7 @@
       "-incremental",
       "-c",
       "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/mob_sec_test.swift",
+      "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/DerivedSources/resource_bundle_accessor.swift",
       "-I",
       "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/Modules",
       "-target",
@@ -459,17 +487,20 @@
   },
   "targetDependencyMap" : {
     "mob_sec_test" : [
+      "ShareSDKSPM",
       "mob_sec_test_oc_mob",
       "mob_sec_test_oc_fly"
     ],
     "mob_sec_testPackageTests" : [
       "mob_sec_testTests",
       "mob_sec_test",
+      "ShareSDKSPM",
       "mob_sec_test_oc_mob",
       "mob_sec_test_oc_fly"
     ],
     "mob_sec_testTests" : [
       "mob_sec_test",
+      "ShareSDKSPM",
       "mob_sec_test_oc_mob",
       "mob_sec_test_oc_fly"
     ]
@@ -501,6 +532,10 @@
         {
           "kind" : "file",
           "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Sources/mob_sec_test/mob_sec_test.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/DerivedSources/resource_bundle_accessor.swift"
         }
       ],
       "outputFilePath" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/sources"
@@ -529,6 +564,10 @@
         {
           "kind" : "file",
           "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/mob_sec_test.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/.build/arm64-apple-macosx/debug/mob_sec_test.build/resource_bundle_accessor.swift.o"
         },
         {
           "kind" : "file",
