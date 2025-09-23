@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/ShareSDK.h</key>
 		<data>
-		5U5s9ORcTBwJvPmpW00a2QYBq+c=
+		gW6sXhEy1sZLQg0QLCbLtQKV4uY=
 		</data>
 		<key>Headers/ShareSDKHeader.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nqEbAtNqD/YZwNLEdtng2KVNcck=
+		LhhMudQgUFDErwbjxYP6Z40msXU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>PrivateHeaders/SSDKConst.h</key>
 		<data>
-		uSMTD5+hIzqKthD0iU14fCaQs7M=
+		sYGiIGsxrEgCUaeQsGxbBTENFqs=
 		</data>
 		<key>PrivateHeaders/SSDKContext.h</key>
 		<data>
@@ -343,11 +343,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5U5s9ORcTBwJvPmpW00a2QYBq+c=
+			gW6sXhEy1sZLQg0QLCbLtQKV4uY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0YOI9uImiP29vyaw0K+BoD6fmsDGeS3P+ZlzutTTmiE=
+			zbxNUvEbZn/Eo1mjd0ThUFDBxskB/Zri9d9PNEQEaxM=
 			</data>
 		</dict>
 		<key>Headers/ShareSDKHeader.h</key>
@@ -453,11 +453,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uSMTD5+hIzqKthD0iU14fCaQs7M=
+			sYGiIGsxrEgCUaeQsGxbBTENFqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DuUwDjgIilhdI2HdPpjqKHAY2ydRva4QNgIweSyF2No=
+			wVGRsNqiSiXQFJDHWU+iR7HqJzxeFQeVeRwsaNOMjhE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SSDKContext.h</key>

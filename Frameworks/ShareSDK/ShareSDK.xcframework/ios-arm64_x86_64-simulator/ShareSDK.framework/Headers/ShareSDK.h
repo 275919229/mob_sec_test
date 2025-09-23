@@ -50,6 +50,7 @@
 
 /**
  ShareSDK 平台注册方法
+ 结果回调为子线程异步回调
 
  @param importHandler 用于设置各平台注册信息，也可在mob管理后台进行注册
  */
