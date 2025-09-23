@@ -32,7 +32,7 @@ let package = Package(
 
         .target(
             name: "mob_sec_test",
-            dependencies: ["mob_sec_test_oc_fly","mob_sec_test_oc_mob","ShareSDKSPM"],
+            dependencies: ["mob_sec_test_oc_fly","mob_sec_test_oc_mob","ShareSDKSPM","ShareSDKExtensionSPM","WechatConnectorSPM"],
 //            dependencies: ["mob_sec_test_oc_fly"],
             resources: [
 //                .copy("Frameworks/ShareSDK/Support/Optional/ShareSDKConfigFile.bundle"),
