@@ -22,8 +22,14 @@ let package = Package(
                       path: "Frameworks/FlyVerifyCSDK.xcframework"),
         .binaryTarget(name: "mob_sec_test_oc_mob",
                       path: "Frameworks/MOBFoundation.xcframework"),
+        //share
         .binaryTarget(name: "ShareSDKSPM",
                       path: "Frameworks/ShareSDK/ShareSDK.xcframework"),
+        .binaryTarget(name: "ShareSDKExtensionSPM",
+                      path: "Frameworks/ShareSDK/Support/Optional/ShareSDKExtension.xcframework"),
+        .binaryTarget(name: "WechatConnectorSPM",
+                      path: "Frameworks/ShareSDK/Support/PlatformConnector/WechatConnector.xcframework"),
+
         .target(
             name: "mob_sec_test",
             dependencies: ["mob_sec_test_oc_fly","mob_sec_test_oc_mob","ShareSDKSPM"],

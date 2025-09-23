@@ -9,11 +9,25 @@
           "location" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1",
           "name" : "spm_test_1"
         },
-        "path" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/FlyVerifyCSDK.xcframework",
+        "path" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/ShareSDK/ShareSDK.xcframework",
         "source" : {
           "type" : "local"
         },
-        "targetName" : "mob_sec_test_oc_fly"
+        "targetName" : "ShareSDKSPM"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "spm_test_1",
+          "kind" : "root",
+          "location" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1",
+          "name" : "spm_test_1"
+        },
+        "path" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/ShareSDK/Support/PlatformConnector/WechatConnector.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "WechatConnectorSPM"
       },
       {
         "kind" : "xcframework",
@@ -37,11 +51,25 @@
           "location" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1",
           "name" : "spm_test_1"
         },
-        "path" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/ShareSDK/ShareSDK.xcframework",
+        "path" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/FlyVerifyCSDK.xcframework",
         "source" : {
           "type" : "local"
         },
-        "targetName" : "ShareSDKSPM"
+        "targetName" : "mob_sec_test_oc_fly"
+      },
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "spm_test_1",
+          "kind" : "root",
+          "location" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1",
+          "name" : "spm_test_1"
+        },
+        "path" : "/Users/mob_m4/Documents/gitlab_source/spm_test_1/Frameworks/ShareSDK/Support/Optional/ShareSDKExtension.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "ShareSDKExtensionSPM"
       }
     ],
     "dependencies" : [
